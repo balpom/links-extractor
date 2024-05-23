@@ -18,7 +18,8 @@ Balpom\LinksExtractor\SimpleExtractor and Balpom\LinksExtractor\Extractor
 
 **SimpleExtractor** usage samples:
 ```php
-$css = 'div.cls1{background-image:url(/image-file-1.jpg);}span.cls2{background-image:url(/image-file-2.png);}';
+$css = 'div.cls1{background-image:url(/image-file-1.jpg);}
+span.cls2{background-image:url(/image-file-2.png);}';
 
 $extractor = new SimpleExtractor($css, 'text/css');
 $linksProvider = $extractor->extract();
