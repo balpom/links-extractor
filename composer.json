@@ -1,0 +1,24 @@
+{
+    "name": "balpom/links-extractor",
+    "description": "Extract all links from string in extended PSR-13 format.",
+    "type": "library",
+    "homepage": "https://www.balpom.ru",
+    "license": "MIT",
+    "keywords": ["link", "psr13", "psr-13", "html", "css", "href", "src", "parsing", "parser", "extractor", "extract", "http", "http2", "url", "uri", "response", "psr-7", "psr7"],
+    "autoload": {
+        "psr-4": {
+            "Balpom\\LinksExtractor\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Mikhail (Balpom)"
+        }
+    ],
+    "require": {
+        "php": ">=8.1",
+        "psr/link": "^1.1|^2.0",
+        "balpom/web-link": "^1.0",
+        "sabberworm/php-css-parser": ">=8.5.1"
+    }
+}
