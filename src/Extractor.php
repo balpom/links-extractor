@@ -6,6 +6,7 @@ namespace Balpom\LinksExtractor;
 
 use Psr\Http\Message\ResponseInterface;
 use Psr\Link\EvolvableLinkProviderInterface;
+use Symfony\Component\WebLink\GenericLinkProvider;
 
 class Extractor extends AbstractExtractor
 {
