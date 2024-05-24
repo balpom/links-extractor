@@ -60,7 +60,7 @@ class Html extends Common
             }
         }
 
-        $tags = ['a', 'link', 'img', 'script', 'iframe', 'source'];
+        $tags = ['base', 'a', 'link', 'img', 'script', 'iframe', 'source', 'bgsound', 'video', 'frame'];
         foreach ($tags as $tag) {
             $nodes = $xpath->query('//xhtml:' . $tag);
             foreach ($nodes as $node) {
