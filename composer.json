@@ -1,4 +1,4 @@
-{
+ {
     "name": "balpom/links-extractor",
     "description": "Extract all links from string in extended PSR-13 format.",
     "type": "library",
