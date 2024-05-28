@@ -1,4 +1,4 @@
-# links-extractor
+# balpom/links-extractor
 ## Extract all links from string and provide it in extended PSR-13 format.
 
 This extractor extract all HTTP links from given string (or [PSR-7 Response](https://www.php-fig.org/psr/psr-7/) object) and provide it in [Balpom\WebLink\EvolvableWebLinkInterface](https://github.com/balpom/web-link) format (which extends Psr\Link\EvolvableLinkInterface ([https://www.php-fig.org/psr/psr-13/](https://www.php-fig.org/psr/psr-13/)) format) as collection in Psr\Link\LinkProviderInterface format (see also [https://www.php-fig.org/psr/psr-13/](https://www.php-fig.org/psr/psr-13/)).
