@@ -57,7 +57,13 @@ abstract class Common
         return $link;
     }
 
-    protected function getHrefFromNode(DOMNode $node, array $attributes = ['href', 'src', 'srcset']): string|null
+    protected function getHrefFromNode(
+            DOMNode $node,
+            array $attributes = [
+                'href', 'src', 'srcset', 'url', 'data-source-url',
+                'data-source-untranslated-url', 'data-proxy-full-url'
+            ]
+    ): string|null
     {
         foreach ($attributes as $attribute) {
             if ($node->hasAttribute($attribute)) {
